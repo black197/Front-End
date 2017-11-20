@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import StaffHeader from './StaffHeader'
+import App from './ManageSystem';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<StaffHeader />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
